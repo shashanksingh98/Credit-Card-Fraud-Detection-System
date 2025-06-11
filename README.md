@@ -1,1 +1,2 @@
 # Credit-Card-Fraud-Detection-System
+Exploring a dataset (creditcard.csv) reveals a significant class imbalance between fraudulent and non-fraudulent transactions, splitting it into training and testing sets while preserving class distribution, and then applying SMOTE (Synthetic Minority Over-sampling Technique) to generate synthetic examples of the minority class, effectively balancing the training data. A Random Forest Classifier is trained on this balanced dataset, using metrics like the confusion matrix, classification report, and ROC AUC score
